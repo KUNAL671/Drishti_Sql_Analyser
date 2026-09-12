@@ -58,7 +58,7 @@ After installation, verify it's running:
 psql -U postgres -c "SELECT version();"
 ```
 
-### 3. OpenAI API Key
+### 3. Gemini API Key
 
 1. Go to https://platform.openai.com/api-keys
 2. Create an account (or sign in)
@@ -66,7 +66,7 @@ psql -U postgres -c "SELECT version();"
 4. Copy the key (starts with `sk-`)
 5. You'll need this key in the setup steps below
 
-> **Cost:** This app uses `gpt-4o-mini` by default, which costs about $0.15 per 1M input tokens. A typical question costs less than $0.01.
+> **Cost:** This app uses `gemini-3.1-flash-lite` by default, which is a free agent by google.
 
 ---
 
