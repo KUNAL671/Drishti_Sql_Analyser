@@ -1,0 +1,6 @@
+{
+  "name": "DRISHTI - Autonomous SQL Analyst",
+  "description": "Autonomous SQL analyst platform that inspects schemas, builds mathematically verified SQL queries, safely executes in sandboxes, and synthesizes executive findings.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

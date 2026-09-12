@@ -1,0 +1,35 @@
+# ============================================================
+# Dependencies — AI Taxi Database Analyst
+# ============================================================
+# Install with:  pip install -r requirements.txt
+# ============================================================
+
+# --- Web Framework ---
+streamlit>=1.30.0
+fastapi>=0.115.0             # REST API layer
+uvicorn[standard]>=0.30.0    # ASGI server for FastAPI
+python-multipart>=0.0.9      # File upload support for FastAPI
+
+# --- Database ---
+psycopg2-binary>=2.9.9     # PostgreSQL driver (Supabase compatible)
+sqlalchemy>=2.0.0          # SQL toolkit & connection pooling
+
+# --- Data Processing ---
+pandas>=2.1.0
+pyarrow>=14.0.0            # Parquet file reader
+openpyxl>=3.1.0            # Excel (.xlsx) file reader
+
+# --- Visualization ---
+plotly>=5.18.0
+
+# --- AI / LLM ---
+google-genai>=1.0.0        # Google Gemini API client
+
+# --- SQL Parsing ---
+sqlparse>=0.5.0
+
+# --- Configuration ---
+python-dotenv>=1.0.0       # Load .env file
+
+# --- Testing ---
+pytest>=7.0.0
