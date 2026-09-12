@@ -1,4 +1,4 @@
-# 🚕 AI Taxi Database Analyst
+# 👁️ Drishti AI Sql Analyser
 
 An AI-powered application that converts natural-language questions about NYC Yellow Taxi trips into SQL queries, executes them, and presents results with interactive visualizations and business-friendly explanations.
 
